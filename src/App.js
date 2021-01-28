@@ -1,13 +1,13 @@
 import Header from './components/Header';
+import Item from './components/Item';
 
 import Accessories from './assets/Desktop-Accessories.jpg';
-import ModelS from './assets/Desktop-ModelS.jpg';
-import Model3 from './assets/Desktop-Model3.jpg';
-import ModelX from './assets/Desktop-ModelX.jpg';
-import ModelY from './assets/Desktop-ModelY.jpg';
-import SolarPanels from './assets/Desktop-SolarPanels.jpg';
-import SolarRoof from './assets/Desktop-SolarRoof.jpg';
-import Item from './components/Item';
+import ModelS from './assets/Desktop-ModelS.jpeg';
+import Model3 from './assets/Desktop-Model3.jpeg';
+import ModelX from './assets/Desktop-ModelX.jpeg';
+import ModelY from './assets/Desktop-ModelY.jpeg';
+import SolarPanels from './assets/Desktop-SolarPanels.jpeg';
+import SolarRoof from './assets/Desktop-SolarRoof.jpeg';
 
 function App() {
 	return (
@@ -38,16 +38,59 @@ function App() {
 					twoButtons='true'
 				/>
 				<Item
-					title='Lowest Cost Solar Panels in America'
+					title='Model 3'
 					desc='Money-back guarantee'
 					descLink=''
-					backgroundImg={SolarPanels}
-					leftBtnTxt='ORDER NOW'
+					backgroundImg={Model3}
+					leftBtnTxt='CUSTOM ORDER'
 					leftBtnLink=''
 					rightBtnTxt='LEARN MORE'
 					rightBtnLink=''
 					twoButtons='true'
-					first
+				/>
+				<Item
+					title='Model X'
+					desc='Money-back guarantee'
+					descLink=''
+					backgroundImg={ModelX}
+					leftBtnTxt='CUSTOM ORDER'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+				<Item
+					title='Model Y'
+					desc='Money-back guarantee'
+					descLink=''
+					backgroundImg={ModelY}
+					leftBtnTxt='CUSTOM ORDER'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+				<Item
+					title='Solar for New Roofs'
+					desc='Money-back guarantee'
+					descLink=''
+					backgroundImg={SolarRoof}
+					leftBtnTxt='CUSTOM ORDER'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
+				/>
+				<Item
+					title='Accessories'
+					desc='Money-back guarantee'
+					descLink=''
+					backgroundImg={Accessories}
+					leftBtnTxt='CUSTOM ORDER'
+					leftBtnLink=''
+					rightBtnTxt='LEARN MORE'
+					rightBtnLink=''
+					twoButtons='true'
 				/>
 			</div>
 		</div>
