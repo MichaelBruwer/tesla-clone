@@ -4,7 +4,7 @@
 	width: 256px;
 	margin: 8px;
 	display: flex;
-	justify-items: center;
+	justify-content: center;
 	align-items: center;
 	border-radius: 100px;
 	opacity: 0.85;
